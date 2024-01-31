@@ -19,12 +19,13 @@ public class CollisionHandler : MonoBehaviour
         if (col.gameObject.name != "Cube (1)" && !CollisionList.currentCollisions[index].Contains(col.gameObject))
         {
             CollisionList.currentCollisions[index].Add(col.gameObject);
+            string s = "";
             for (int i = 0; i < CollisionList.currentCollisions.Count; i++)
             {
                 for (int j = 0; j < CollisionList.currentCollisions[i].Count; j++)
                 {
 
-                    Debug.Log(i + " " + j + " " + CollisionList.currentCollisions[i][j].gameObject.name);
+                    CollisionList.currentCollisions[i][j].gameObject.GetComponents<GameObject>();
 
                 }
             }

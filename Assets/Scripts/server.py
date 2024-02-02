@@ -22,7 +22,6 @@ def execute_python_code(python_code):
             return {'success': True, 'result': cleaned_result}
         else:
             # Clean up the error message by replacing '\r\n' with a newline
-            print("YES")
             cleaned_error = stderr.decode('utf-8').replace('\r\n', '\n').strip()
             return {'success': False, 'error': cleaned_error}
     except Exception as e:
@@ -46,4 +45,4 @@ def execute_python():
         return jsonify({'success': False, 'error': str(e)})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

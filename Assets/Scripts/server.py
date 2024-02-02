@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 import subprocess
 import os
-import re
 app = Flask(__name__)
 
 def execute_python_code(python_code):
@@ -23,13 +22,14 @@ def execute_python_code(python_code):
             return {'success': True, 'result': cleaned_result}
         else:
             # Clean up the error message by replacing '\r\n' with a newline
+            print("YES")
             cleaned_error = stderr.decode('utf-8').replace('\r\n', '\n').strip()
             return {'success': False, 'error': cleaned_error}
     except Exception as e:
+        
         return {'success': False, 'error': str(e)}
-    finally:
-        # Cleanup: Remove the temporary Python file
-        os.remove('temp_code.py')
+    # Cleanup: Remove the temporary Python file
+    # os.remove('temp_code.py')
 
 
 @app.route('/execute_python', methods=['POST'])

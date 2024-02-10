@@ -9,15 +9,16 @@ public class executePythonCode : MonoBehaviour
 {
 
     private const string ServerURL = "http://127.0.0.1:5000/execute_python";
-
+    public GameObject codeText;
+    public GameObject executedText;
     List<List<GameObject>> currentCollisions = CollisionList.currentCollisions;
-
-
-    public void executeCode()
+    string code = "";
+    public void Update()
     {
+        string s = "";
         //logic of objects to code
 
-        string s = "";
+
         for (int i = 0; i < currentCollisions.Count; i++)
         {
             SortGameObjectsByZPosition(i);
@@ -49,7 +50,39 @@ public class executePythonCode : MonoBehaviour
                         spaces += 4;
                         s += textMeshProText + '\n';
                         break;
+                    case "elif":
+                        for (int space = 0; space < spaces; space++)
+                        {
+                            s += ' ';
+                        }
+                        spaces += 4;
+                        s += textMeshProText + '\n';
+                        break;
+                    case "else":
+                        for (int space = 0; space < spaces; space++)
+                        {
+                            s += ' ';
+                        }
+                        spaces += 4;
+                        s += textMeshProText + '\n';
+                        break;
                     case "for":
+                        for (int space = 0; space < spaces; space++)
+                        {
+                            s += ' ';
+                        }
+                        spaces += 4;
+                        s += textMeshProText + '\n';
+                        break;
+                    case "while":
+                        for (int space = 0; space < spaces; space++)
+                        {
+                            s += ' ';
+                        }
+                        spaces += 4;
+                        s += textMeshProText + '\n';
+                        break;
+                    case "def":
                         for (int space = 0; space < spaces; space++)
                         {
                             s += ' ';
@@ -67,8 +100,17 @@ public class executePythonCode : MonoBehaviour
                 }
 
             }
-            StartCoroutine(SendPythonCode(s));
+            
         }
+        code = s;
+        codeText.GetComponent<TextMeshProUGUI>().text = code;
+    }
+
+    public void executeCode()
+    {
+        
+            StartCoroutine(SendPythonCode(code));
+ 
          
     }
     
@@ -98,6 +140,7 @@ public class executePythonCode : MonoBehaviour
         if (response != null)
         {
             string result = response.result;
+            executedText.GetComponent<TextMeshProUGUI>().text = result;
             Debug.Log(result);
         }
         else

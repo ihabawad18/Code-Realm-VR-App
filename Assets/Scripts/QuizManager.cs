@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI.Extensions;
+using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
@@ -78,6 +79,7 @@ public class QuizManager : MonoBehaviour
         generateQuestions();
     }
 
+
     public void wrong()
     {
         // wrong answer
@@ -91,8 +93,10 @@ public class QuizManager : MonoBehaviour
 
     void SetAnswers()
     {
+      
         for(int i=0; i < options.Length; i++)
         {
+            //options[i].GetComponent<Button>().interactable = true;
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QnA[currentQuestion].answers[i];
             if (QnA[currentQuestion].correctAnswer == i + 1)

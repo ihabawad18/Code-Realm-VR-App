@@ -10,16 +10,21 @@ public class AnswerScriptTemp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the button component is not null
-        if (buttonToClick != null)
+      
+        if (other.tag != "floor")
         {
-            // Trigger the click event on the button
-            buttonToClick.onClick.Invoke();
+            // Check if the button component is not null
+            if (buttonToClick != null)
+            {
+                // Trigger the click event on the button
+                buttonToClick.onClick.Invoke();
+            }
+            else
+            {
+                Debug.LogWarning("Button reference is null. Make sure to assign a Button component to 'buttonToClick'.");
+            }
         }
-        else
-        {
-            Debug.LogWarning("Button reference is null. Make sure to assign a Button component to 'buttonToClick'.");
-        }
+        
     }
    
 }

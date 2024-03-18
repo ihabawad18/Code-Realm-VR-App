@@ -1,3 +1,2 @@
 print(5)
-print(5)
-print("yes")
+x = 5

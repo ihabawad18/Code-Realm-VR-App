@@ -23,11 +23,11 @@ public class ActivateTeleportationRayScript : MonoBehaviour
     {
         bool isLeftRayHovering = leftRay.TryGetHitInfo(out Vector3 leftPos, out Vector3 leftNormal, out int leftNumber, out bool leftValid);
 
-        leftTeleportation.SetActive(!isLeftRayHovering && leftCancel.action.ReadValue<float>() ==0 && leftActivate.action.ReadValue<float>() > 0.1f);
+        leftTeleportation.SetActive(!isLeftRayHovering && leftCancel.action.ReadValue<float>() ==0 && leftActivate.action.ReadValue<float>() >= 0.00001f);
 
         bool isRightRayHovering = rightRay.TryGetHitInfo(out Vector3 rightPos, out Vector3 rightNormal, out int rightNumber, out bool rightValid);
 
 
-        rightTeleportation.SetActive(!isRightRayHovering && rightCancel.action.ReadValue<float>() == 0 && rightActivate.action.ReadValue<float>() > 0.1f);
+        rightTeleportation.SetActive(!isRightRayHovering && rightCancel.action.ReadValue<float>() == 0 && rightActivate.action.ReadValue<float>() >= 0.00001f);
     }
 }

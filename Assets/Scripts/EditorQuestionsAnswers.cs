@@ -1,4 +1,4 @@
-using UnityEditor;
+/*using UnityEditor;
 
 [CustomEditor(typeof(QuestionsAndAnswers))]
 public class QuestionsAndAnswersEditor : Editor
@@ -21,4 +21,4 @@ public class QuestionsAndAnswersEditor : Editor
         EditorGUILayout.LabelField("Correct Answer");
         qa.correctAnswer = EditorGUILayout.IntField(qa.correctAnswer);
     }
-}
+}*/

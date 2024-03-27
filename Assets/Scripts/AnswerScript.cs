@@ -53,8 +53,8 @@ public class AnswerScript : MonoBehaviour
     {
         disableButtons();
         // Wait for the specified delay
-        yield return new WaitForSeconds(1.65f);
-
+        //yield return new WaitForSeconds(1.65f);
+        yield return new WaitForSeconds(4f);
         enableButtons();
 
         quizManager.correct();
@@ -66,8 +66,8 @@ public class AnswerScript : MonoBehaviour
     {
        disableButtons();
         // Wait for the specified delay
-        yield return new WaitForSeconds(1.65f);
-
+        //yield return new WaitForSeconds(1.65f);
+        yield return new WaitForSeconds(4f);
        enableButtons();
         quizManager.wrong();
 

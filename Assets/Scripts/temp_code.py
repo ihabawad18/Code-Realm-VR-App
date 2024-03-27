@@ -1,3 +1,1 @@
-print(5)
-print(5)
-print("yes")
+print('YES')

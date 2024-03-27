@@ -21,6 +21,7 @@ public class executePythonCode : MonoBehaviour
 
         for (int i = 0; i < currentCollisions.Count; i++)
         {
+
             SortGameObjectsByZPosition(i);
             int spaces = 0;
             for (int j = 0; j < currentCollisions[i].Count; j++)
@@ -39,6 +40,7 @@ public class executePythonCode : MonoBehaviour
                 string textMeshProText = textMeshProComponent.text;
                 string firstKeyword = textMeshProText.Split(' ')[0];
 
+                Debug.Log(textMeshProText);
 
                 switch (firstKeyword)
                 {

@@ -1344,6 +1344,80 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1671568197}
   m_SourcePrefab: {fileID: 100100000, guid: aa96ce52eb2d0044d84a31cafbdd5bec, type: 3}
+--- !u!1 &248635819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248635821}
+  - component: {fileID: 248635820}
+  m_Layer: 0
+  m_Name: Quiz Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &248635820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248635819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5946f26f56e2141b5a55a333bc82fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - question: I was here
+    answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    correctAnswer: 1
+  - question: I was not here
+    answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    correctAnswer: 2
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  QuestionNumber: {fileID: 0}
+  QuestionText: {fileID: 0}
+  startPanel: {fileID: 1846490498}
+  quizPanel: {fileID: 1387387744}
+  GoPanel: {fileID: 0}
+  timePanel: {fileID: 0}
+  ScoreText: {fileID: 0}
+  score: 0
+  t1: {fileID: 0}
+--- !u!4 &248635821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248635819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0556641, y: 1.480732, z: 1.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &281602187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,6 +1941,11 @@ PrefabInstance:
       propertyPath: m_EndPointDistance
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2470073771953817279, guid: 756eb109da0661b47a2e4864c5b60420,
+        type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3692453862770743956, guid: 756eb109da0661b47a2e4864c5b60420,
         type: 3}
       propertyPath: m_RightHandMoveAction.m_UseReference
@@ -1875,7 +1954,7 @@ PrefabInstance:
     - target: {fileID: 3890728158271884917, guid: 756eb109da0661b47a2e4864c5b60420,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9
+      value: -9.65
       objectReference: {fileID: 0}
     - target: {fileID: 3890728158271884917, guid: 756eb109da0661b47a2e4864c5b60420,
         type: 3}
@@ -1885,7 +1964,7 @@ PrefabInstance:
     - target: {fileID: 3890728158271884917, guid: 756eb109da0661b47a2e4864c5b60420,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.97
+      value: -7.73
       objectReference: {fileID: 0}
     - target: {fileID: 3890728158271884917, guid: 756eb109da0661b47a2e4864c5b60420,
         type: 3}
@@ -1922,10 +2001,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5414853980089936731, guid: 756eb109da0661b47a2e4864c5b60420,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 6646203152276775145, guid: 756eb109da0661b47a2e4864c5b60420,
         type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646203152276775145, guid: 756eb109da0661b47a2e4864c5b60420,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4358,7 +4447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 248635820}
   options:
   - {fileID: 1012061738}
   - {fileID: 1795811184}
@@ -9828,7 +9917,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
-        m_MethodName: startQuiz
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10221,6 +10310,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 374462590}
   - {fileID: 1531793126}
+  - {fileID: 248635821}
   - {fileID: 1467663947}
   - {fileID: 1213506770}
   - {fileID: 1758363967}

@@ -9,31 +9,34 @@ public class buzz_collider_script : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Transform buttonParent = myButton.transform.parent;
-        if (buttonParent != null)
+        if (myButton.interactable)
         {
-            Transform buttonGrandParent = buttonParent.parent;
-            if (buttonGrandParent != null)
+            Transform buttonParent = myButton.transform.parent;
+            if (buttonParent != null)
             {
-                if (buttonGrandParent.gameObject.activeInHierarchy)
+                Transform buttonGrandParent = buttonParent.parent;
+                if (buttonGrandParent != null)
                 {
-                    myButton.onClick.Invoke();
+                    if (buttonGrandParent.gameObject.activeInHierarchy)
+                    {
+                        myButton.onClick.Invoke();
 
-                    Debug.Log("pressed button.");
+                        Debug.Log("pressed button.");
+                    }
+                    else
+                    {
+                        Debug.Log("Cant press the button because the grandparent is not active.");
+                    }
                 }
                 else
                 {
-                    Debug.Log("Cant press the button because the grandparent is not active.");
+                    Debug.Log("Button has no grandparent.");
                 }
             }
             else
             {
-                Debug.Log("Button has no grandparent.");
+                Debug.Log("Button has no parent.");
             }
-        }
-        else
-        {
-            Debug.Log("Button has no parent.");
         }
     }
 }

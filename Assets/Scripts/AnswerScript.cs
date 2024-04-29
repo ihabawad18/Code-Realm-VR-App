@@ -35,7 +35,7 @@ public class AnswerScript : MonoBehaviour
     {
 
         // Wait for the specified delay
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.5f);
 
         quizManager.correct();
 
@@ -45,7 +45,7 @@ public class AnswerScript : MonoBehaviour
     IEnumerator ExecuteAfterDelayWrong()
     {
         // Wait for the specified delay
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.5f);
 
         quizManager.wrong();
 

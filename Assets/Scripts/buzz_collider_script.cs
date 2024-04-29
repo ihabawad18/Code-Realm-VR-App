@@ -6,14 +6,16 @@ using UnityEngine.UI;
 public class buzz_collider_script : MonoBehaviour
 {
     public Button myButton;
+
     void OnTriggerEnter(Collider other)
     {
-        if (transform.parent != null)
+        Transform buttonParent = myButton.transform.parent;
+        if (buttonParent != null)
         {
-            Transform grandParent = transform.parent.parent;
-            if (grandParent != null)
+            Transform buttonGrandParent = buttonParent.parent;
+            if (buttonGrandParent != null)
             {
-                if (grandParent.gameObject.activeInHierarchy)
+                if (buttonGrandParent.gameObject.activeInHierarchy)
                 {
                     myButton.onClick.Invoke();
 
@@ -21,18 +23,17 @@ public class buzz_collider_script : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Cant press the button.");
+                    Debug.Log("Cant press the button because the grandparent is not active.");
                 }
             }
             else
             {
-                Debug.Log("No grandparent found.");
+                Debug.Log("Button has no grandparent.");
             }
         }
         else
         {
-            Debug.Log("No parent found.");
+            Debug.Log("Button has no parent.");
         }
-
     }
 }

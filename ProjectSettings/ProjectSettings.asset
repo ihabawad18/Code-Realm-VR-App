@@ -919,7 +919,11 @@ PlayerSettings:
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
+  qualitySettingsNames:
+  - Performant
+  - Balanced
+  - High Fidelity
+  - Standlone VR
   projectName: 
   organizationId: 
   cloudEnabled: 0

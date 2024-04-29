@@ -172,8 +172,8 @@ public class executePythonCode : MonoBehaviour
             currentCollisions[index].Sort((go1, go2) =>
             {
                 // Compare the z-positions of the two GameObjects in decreasing order
-                float x1 = go1.transform.position.x;
-                float x2 = go2.transform.position.x;
+                float x1 = -go1.transform.position.x;
+                float x2 = -go2.transform.position.x;
 
                 // Sort in decreasing order based on x-position
                 return x2.CompareTo(x1);

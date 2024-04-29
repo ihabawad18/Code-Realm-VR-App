@@ -8,7 +8,7 @@ using UnityEngine.Networking;
 public class executePythonCode : MonoBehaviour
 {
 
-    private const string ServerURL = "http://127.0.0.1:5000/execute_python";
+    private const string ServerURL = "https://code-realm-vr-app.onrender.com/execute_python";
     public GameObject codeText;
     public GameObject executedText;
     List<List<GameObject>> currentCollisions = CollisionList.currentCollisions;

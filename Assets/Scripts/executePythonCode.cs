@@ -22,7 +22,7 @@ public class executePythonCode : MonoBehaviour
         for (int i = 0; i < currentCollisions.Count; i++)
         {
 
-            SortGameObjectsByZPosition(i);
+            SortGameObjectsByXPosition(i);
             int spaces = 0;
             for (int j = 0; j < currentCollisions[i].Count; j++)
             {
@@ -166,17 +166,17 @@ public class executePythonCode : MonoBehaviour
         public string result;
         public bool success;
     }
-    void SortGameObjectsByZPosition(int index)
+    void SortGameObjectsByXPosition(int index)
         {
             // Use the List.Sort method with a custom comparison function
             currentCollisions[index].Sort((go1, go2) =>
             {
                 // Compare the z-positions of the two GameObjects in decreasing order
-                float z1 = go1.transform.position.z;
-                float z2 = go2.transform.position.z;
+                float x1 = go1.transform.position.x;
+                float x2 = go2.transform.position.x;
 
-                // Sort in decreasing order based on z-position
-                return z2.CompareTo(z1);
+                // Sort in decreasing order based on x-position
+                return x2.CompareTo(x1);
             });
 
         }

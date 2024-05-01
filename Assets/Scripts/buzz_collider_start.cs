@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class buzz_collider_script : MonoBehaviour
+public class buzz_collider_start : MonoBehaviour
 {
     public Button myButton;
     public AudioClip buzzSound;
 
     public AudioSource audioSource;
+
     void OnTriggerEnter(Collider other)
     {
         if (myButton.interactable)
@@ -21,9 +22,9 @@ public class buzz_collider_script : MonoBehaviour
                 {
                     if (buttonGrandParent.gameObject.activeInHierarchy)
                     {
-                        audioSource.PlayOneShot(buzzSound); 
-                        myButton.onClick.Invoke();
+                        audioSource.PlayOneShot(buzzSound);
 
+                        myButton.onClick.Invoke();
 
                         Debug.Log("pressed button.");
                     }

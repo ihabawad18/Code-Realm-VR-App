@@ -1,0 +1,45 @@
+{
+    "name": "switch-environments",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "fe7bc3be-4aef-4687-824f-f8d5099fb317",
+            "actions": [
+                {
+                    "name": "switch environment",
+                    "type": "Button",
+                    "id": "e1ee014e-d519-4756-86c4-aee7dd294e3e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "55fe31bf-b476-4faa-b791-96ebdc152ed1",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switch environment",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4766aa3f-7883-421b-9075-df626e0ed334",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "switch environment",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

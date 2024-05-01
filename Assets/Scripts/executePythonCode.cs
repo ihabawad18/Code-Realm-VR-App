@@ -17,13 +17,13 @@ public class executePythonCode : MonoBehaviour
     {
         string s = "";
         //logic of objects to code
-
+        int spaces = 0;
 
         for (int i = 0; i < currentCollisions.Count; i++)
         {
 
             SortGameObjectsByXPosition(i);
-            int spaces = 0;
+
             for (int j = 0; j < currentCollisions[i].Count; j++)
             {
                 //parent
@@ -42,7 +42,7 @@ public class executePythonCode : MonoBehaviour
 
                 Debug.Log(textMeshProText);
 
-                switch (firstKeyword)
+                /*switch (firstKeyword)
                 {
                     case "if":
                         for (int space = 0; space < spaces; space++)
@@ -91,6 +91,23 @@ public class executePythonCode : MonoBehaviour
                         }
                         spaces += 4;
                         s += textMeshProText + '\n';
+                        break;
+                    default:
+                        for (int space = 0; space < spaces; space++)
+                        {
+                            s += ' ';
+                        }
+                        s += textMeshProText + '\n';
+                        break;
+                }*/
+
+                switch (firstKeyword)
+                {
+                    case "+space":
+                        spaces += 4;
+                        break;
+                    case "-space":
+                        spaces -= 4;
                         break;
                     default:
                         for (int space = 0; space < spaces; space++)

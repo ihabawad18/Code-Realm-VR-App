@@ -50,6 +50,15 @@ public class QuizManager : MonoBehaviour
         quizPanel.SetActive(false);
         timePanel.SetActive(false);
         GoPanel.SetActive(true);
+        int half = totalQuestions / 2;
+        if(score > half)
+        {
+            ScoreText.GetComponent<TextMeshProUGUI>().color = Color.green;
+        }
+        else
+        {
+            ScoreText.GetComponent<TextMeshProUGUI>().color = Color.red;
+        }
         ScoreText.GetComponent<TextMeshProUGUI>().text = score + "/" + totalQuestions;
     }
 

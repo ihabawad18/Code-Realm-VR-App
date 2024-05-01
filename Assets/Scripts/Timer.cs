@@ -36,14 +36,13 @@ public class Timer : MonoBehaviour
     IEnumerator Countdown()
     {
         float timeRemaining = countdownDuration;
+       
+        // Play the timer sound effect
         audioSource.PlayOneShot(timerSound);
-        //while (timeRemaining > 0f && isCountingDown)
         while (timeRemaining > 0f)
         {
             // Update the timer text to show the remaining time
             timerText.GetComponent<TextMeshProUGUI>().text = Mathf.RoundToInt(timeRemaining).ToString();
-
-            // Play the timer sound effect
             
 
             // Wait for one second
@@ -55,7 +54,6 @@ public class Timer : MonoBehaviour
 
         StartCoroutine(ExecuteAfterDelayWrong());
 
-        // When the countdown finishes, you can handle the logic for the end of the timer here
     }
     IEnumerator ExecuteAfterDelayWrong()
     {

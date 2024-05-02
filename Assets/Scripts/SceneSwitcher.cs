@@ -77,6 +77,7 @@ public class SceneSwitcher : MonoBehaviour
             isPaused = false;
             awaitingConfirmation = false;
             ConfirmSceneSwitch();
+            ResumeGame();
         }
     }
 

@@ -44,7 +44,7 @@ public class SceneSwitcher : MonoBehaviour
     private bool isPaused = false;
     private bool awaitingConfirmation = false;
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         primaryButton.action.performed += HandlePrimaryButton;
     }
@@ -52,9 +52,21 @@ public class SceneSwitcher : MonoBehaviour
     private void OnDisable()
     {
         primaryButton.action.performed -= HandlePrimaryButton;
+    }*/
+
+    private void Update()
+    {
+        if (primaryButton.action.triggered)
+        {
+            HandlePrimaryButton();
+        }
+        if (isPaused && awaitingConfirmation && (leftActivate.action.ReadValue<float>() >= 0.0001 || rightActivate.action.ReadValue<float>() >= 0.0001))
+        {
+            ResumeGame();
+        }
     }
 
-    private void HandlePrimaryButton(InputAction.CallbackContext context)
+    private void HandlePrimaryButton()
     {
         if (!isPaused)
         {
@@ -68,13 +80,7 @@ public class SceneSwitcher : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (isPaused && awaitingConfirmation && (leftActivate.action.ReadValue<float>()>=0.0001 || rightActivate.action.ReadValue<float>()>=0.0001))
-        {
-            ResumeGame();
-        }
-    }
+    
 
     private void PauseGame()
     {

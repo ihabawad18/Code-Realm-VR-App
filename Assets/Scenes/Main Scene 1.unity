@@ -6822,11 +6822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options:
-  - {fileID: 1012061738}
-  - {fileID: 1795811184}
-  - {fileID: 1341093122}
-  - {fileID: 1357957942}
+  options: []
 --- !u!114 &1012061740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9102,11 +9098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options:
-  - {fileID: 1012061738}
-  - {fileID: 1795811184}
-  - {fileID: 1341093122}
-  - {fileID: 1357957942}
+  options: []
 --- !u!114 &1341093124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9344,11 +9336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options:
-  - {fileID: 1012061738}
-  - {fileID: 1795811184}
-  - {fileID: 1341093122}
-  - {fileID: 1357957942}
+  options: []
 --- !u!114 &1357957945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11944,11 +11932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options:
-  - {fileID: 1012061738}
-  - {fileID: 1795811184}
-  - {fileID: 1341093122}
-  - {fileID: 1357957942}
+  options: []
 --- !u!114 &1795811186
 MonoBehaviour:
   m_ObjectHideFlags: 0

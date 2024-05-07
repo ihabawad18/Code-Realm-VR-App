@@ -13,14 +13,6 @@ public class SceneSwitcher : MonoBehaviour
     private bool isPaused = false;
     private bool awaitingConfirmation = false;
 
-    // Timer variables to manage confirmation panel display
-    private float confirmationDisplayTime = 5f;
-    private float currentConfirmationTime = 0f;
-
-    // Static variables to store the player's position between scene loads and flag for checking transition
-    private static Vector3 savedPosition = Vector3.zero;
-    private static bool isTransitioning = false;
-
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -37,20 +29,9 @@ public class SceneSwitcher : MonoBehaviour
         {
             HandlePrimaryButton();
         }
-
-        if (isPaused && awaitingConfirmation)
+        if (isPaused && awaitingConfirmation && (leftActivate.action.ReadValue<float>() >= 0.0001 || rightActivate.action.ReadValue<float>() >= 0.0001))
         {
-            // Countdown for hiding the confirmation panel after a set period
-            currentConfirmationTime -= Time.unscaledDeltaTime;
-            if (currentConfirmationTime <= 0f)
-            {
-                ResumeGame();
-            }
-
-            if (leftActivate.action.ReadValue<float>() >= 0.0001 || rightActivate.action.ReadValue<float>() >= 0.0001)
-            {
-                ResumeGame();
-            }
+            ResumeGame();
         }
     }
 
@@ -64,14 +45,6 @@ public class SceneSwitcher : MonoBehaviour
         {
             isPaused = false;
             awaitingConfirmation = false;
-
-            // Save the player's current position before switching scenes and set transitioning flag
-            if (player != null)
-            {
-                savedPosition = player.transform.position;
-                isTransitioning = true;
-            }
-
             ConfirmSceneSwitch();
         }
     }
@@ -83,7 +56,6 @@ public class SceneSwitcher : MonoBehaviour
         audioSource.Pause();
         confirmationPanel.SetActive(true);
         awaitingConfirmation = true;
-        currentConfirmationTime = confirmationDisplayTime; // Start countdown timer
     }
 
     private void ConfirmSceneSwitch()
@@ -94,25 +66,17 @@ public class SceneSwitcher : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        int sceneIndex = scene.buildIndex;
+
+        Vector3 newPosition = sceneIndex == 1 ?
+            new Vector3(-9.65f, 0.163f, -7.73f) :
+            new Vector3(-7f, 0.236f, -11f);
+
         if (player != null)
         {
-            if (isTransitioning && savedPosition != Vector3.zero)
-            {
-                // Restore the player's saved position if transitioning between scenes
-                player.transform.position = savedPosition;
-            }
-            else
-            {
-                // Default positions if it's the player's first time entering the scene
-                Vector3 startPosition = scene.buildIndex == 1 ?
-                    new Vector3(-9.65f, 0.163f, -7.73f) :
-                    new Vector3(-7f, 0.236f, -11f);
-                player.transform.position = startPosition;
-            }
+            player.transform.position = newPosition;
         }
 
-        // Reset the transitioning flag
-        isTransitioning = false;
         ResumeGame();
     }
 
@@ -123,6 +87,5 @@ public class SceneSwitcher : MonoBehaviour
         audioSource.UnPause();
         confirmationPanel.SetActive(false);
         awaitingConfirmation = false;
-        currentConfirmationTime = 0f; // Reset the countdown timer
     }
 }

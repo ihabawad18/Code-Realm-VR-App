@@ -1828,6 +1828,41 @@ MonoBehaviour:
     - ' [''Hello'', '' World!'']'
     - Hello
     correctAnswer: 3
+  - question: What function can you use to read user input from the console?
+    answers:
+    - input()
+    - read()
+    - scanf()
+    - console()
+    correctAnswer: 1
+  - question: ' Which symbol is used to denote the start of a comment in Python?'
+    answers:
+    - //
+    - /*
+    - <!--
+    - '#'
+    correctAnswer: 4
+  - question: What keyword is used to exit a loop prematurely?
+    answers:
+    - exit
+    - break
+    - stop
+    - terminate
+    correctAnswer: 2
+  - question: How do you access the second-to-last item of a list called fruits?
+    answers:
+    - fruits[-1]
+    - fruits[-2]
+    - fruits[0]
+    - fruits[1]
+    correctAnswer: 2
+  - question: ' Which operator checks if an element is in a collection?'
+    answers:
+    - ==
+    - is
+    - has
+    - in
+    correctAnswer: 4
   options:
   - {fileID: 1012061738}
   - {fileID: 1795811184}
@@ -7326,7 +7361,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options: []
+  options:
+  - {fileID: 1012061738}
+  - {fileID: 1795811184}
+  - {fileID: 1341093122}
+  - {fileID: 1357957942}
 --- !u!114 &1012061740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8107,8 +8146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primaryButton: {fileID: -4520195852021940767, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  secondaryButton: {fileID: -7347900968849241021, guid: c348712bda248c246b8c49b3db54643f,
-    type: 3}
   confirmationPanel: {fileID: 594626140}
   audioSource: {fileID: 1208268445}
   player: {fileID: 1157424838}
@@ -8387,7 +8424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 832974243}
-  countdownDuration: 20
+  countdownDuration: 25
   timerSound: {fileID: 8300000, guid: dde299521d2beff4b9740b852e12d2e7, type: 3}
   audioSource: {fileID: 1208268445}
   quizManager: {fileID: 248635820}
@@ -9031,12 +9068,12 @@ PrefabInstance:
     - target: {fileID: 1233048948212520501, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 7228.1
+      value: 4412
       objectReference: {fileID: 0}
     - target: {fileID: 1233048948212520501, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2037
+      value: 3182
       objectReference: {fileID: 0}
     - target: {fileID: 1233048948212520501, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
@@ -9076,12 +9113,12 @@ PrefabInstance:
     - target: {fileID: 1233048948212520501, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -34
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 1233048948212520501, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2633
+      value: -2501
       objectReference: {fileID: 0}
     - target: {fileID: 1233048948212520501, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
@@ -9114,7 +9151,7 @@ PrefabInstance:
     - target: {fileID: 6545574434256796117, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
       propertyPath: m_fontSize
-      value: 550
+      value: 320
       objectReference: {fileID: 0}
     - target: {fileID: 6545574434256796117, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
@@ -9139,7 +9176,7 @@ PrefabInstance:
     - target: {fileID: 6545574434256796117, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 550
+      value: 320
       objectReference: {fileID: 0}
     - target: {fileID: 6545574434256796117, guid: e19d686bbc86f0e428a57ec28fba0aa1,
         type: 3}
@@ -9904,7 +9941,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options: []
+  options:
+  - {fileID: 1012061738}
+  - {fileID: 1795811184}
+  - {fileID: 1341093122}
+  - {fileID: 1357957942}
 --- !u!114 &1341093124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10142,7 +10183,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options: []
+  options:
+  - {fileID: 1012061738}
+  - {fileID: 1795811184}
+  - {fileID: 1341093122}
+  - {fileID: 1357957942}
 --- !u!114 &1357957945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12816,8 +12861,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.454, y: 0.19}
-  m_SizeDelta: {x: 10346.401, y: 8726.389}
+  m_AnchoredPosition: {x: -11.454, y: -0.1112}
+  m_SizeDelta: {x: 10346.401, y: 9850.131}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1781339117
 GameObject:
@@ -12988,7 +13033,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 248635820}
-  options: []
+  options:
+  - {fileID: 1012061738}
+  - {fileID: 1795811184}
+  - {fileID: 1341093122}
+  - {fileID: 1357957942}
 --- !u!114 &1795811186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14610,8 +14659,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2197}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1052, y: 1118}
+  m_SizeDelta: {x: -4787, y: -7472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2147438568
 MonoBehaviour:

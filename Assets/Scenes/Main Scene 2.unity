@@ -381,13 +381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &8522321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2323,13 +2316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &92046198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2506,13 +2492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &101121937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4670,13 +4649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &188729132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -4901,13 +4873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &190516964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5168,13 +5133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &198728455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5357,13 +5315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &207759342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5551,13 +5502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &208636074
 GameObject:
   m_ObjectHideFlags: 0
@@ -7377,13 +7321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &284512580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8732,13 +8669,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &314335366
 GameObject:
   m_ObjectHideFlags: 0
@@ -9041,13 +8971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &321230919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9296,13 +9219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &329035652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11005,13 +10921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &404697433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -11119,13 +11028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &415414964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3238926255375154446, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -11144,13 +11046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &416543912 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -11339,13 +11234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &427782871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11943,13 +11831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &461400143
 GameObject:
   m_ObjectHideFlags: 0
@@ -12296,13 +12177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &468860282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -13852,13 +13726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &549106199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15584,13 +15451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &614631443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -16446,13 +16306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &652531919 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -18783,13 +18636,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &759270490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3238926255375154446, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -19145,13 +18991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &785941404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19626,13 +19465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &816469570
 GameObject:
   m_ObjectHideFlags: 0
@@ -19682,13 +19514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &824318548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -19827,13 +19652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &841272251
 GameObject:
   m_ObjectHideFlags: 0
@@ -20193,13 +20011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &855224620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -20351,13 +20162,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &865366121
 GameObject:
   m_ObjectHideFlags: 0
@@ -20654,13 +20458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &870720972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20843,13 +20640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &872940599 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -20874,13 +20664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &876360817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22234,13 +22017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &911987176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3238926255375154446, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -22259,13 +22035,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &912107801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23552,13 +23321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &974518429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -23577,13 +23339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &978298833 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -24684,13 +24439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &998010622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25034,13 +24782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1022943889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25217,13 +24958,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1026207024
 GameObject:
   m_ObjectHideFlags: 0
@@ -25615,13 +25349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &1062853364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -26401,13 +26128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1127178852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -26500,13 +26220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &1147307864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -27187,13 +26900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1164206503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27531,13 +27237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1170998175
 GameObject:
   m_ObjectHideFlags: 0
@@ -29394,13 +29093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1216400511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -29419,13 +29111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1217951558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30060,13 +29745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1252258429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30523,13 +30201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1273512839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30708,13 +30379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1278423445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30816,13 +30480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1282136280
 GameObject:
   m_ObjectHideFlags: 0
@@ -31270,13 +30927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1317174374
 GameObject:
   m_ObjectHideFlags: 0
@@ -31524,13 +31174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1336835241
 GameObject:
   m_ObjectHideFlags: 0
@@ -31865,13 +31508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1345773821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32427,13 +32063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1387481507
 GameObject:
   m_ObjectHideFlags: 0
@@ -32972,13 +32601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1408042182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33362,13 +32984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1412646585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33470,13 +33085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1419029408
 GameObject:
   m_ObjectHideFlags: 0
@@ -34300,13 +33908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &1459618632 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -34495,13 +34096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1461833942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35114,13 +34708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1478232413
 GameObject:
   m_ObjectHideFlags: 0
@@ -35530,13 +35117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1497528002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36125,13 +35705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1531665288
 GameObject:
   m_ObjectHideFlags: 0
@@ -36515,8 +36088,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
-  isPaused: 0
-  awaitingConfirmation: 0
 --- !u!82 &1550201143
 AudioSource:
   m_ObjectHideFlags: 0
@@ -36848,13 +36419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1561774690
 GameObject:
   m_ObjectHideFlags: 0
@@ -37475,13 +37039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1592783117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37807,13 +37364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1612322623
 GameObject:
   m_ObjectHideFlags: 0
@@ -38021,13 +37571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1621374184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38163,13 +37706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1629351078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38346,13 +37882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1630181862
 GameObject:
   m_ObjectHideFlags: 0
@@ -38836,7 +38365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1643014290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39253,13 +38782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1657131388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -39762,13 +39284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1691958193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40197,13 +39712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1724897191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40469,13 +39977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1734290981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41584,13 +41085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1797970753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42506,13 +42000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1833946615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42969,13 +42456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1845728364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43216,13 +42696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &1855923418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3238926255375154446, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -43241,13 +42714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1861875774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43426,13 +42892,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1865642013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43773,13 +43232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1891464689
 GameObject:
   m_ObjectHideFlags: 0
@@ -44247,13 +43699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1905821838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44849,13 +44294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!4 &1919564053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5311519661570571973, guid: e30496263f7ba54488d5cb051756f667,
@@ -45038,13 +44476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1940531143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45310,13 +44741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1941657204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45579,13 +45003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1956827130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45930,13 +45347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1 &1983720454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3238926255375376686, guid: ae31959e3f5b1ac4687d94ceece2563c,
@@ -45955,13 +45365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1984284806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46167,13 +45570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1993166360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46299,13 +45695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &1997903564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46668,13 +46057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2003745547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47347,13 +46729,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2036580706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47987,13 +47362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2070826554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48912,13 +48280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2124434281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49256,13 +48617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2132057769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49439,13 +48793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2133131243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49621,13 +48968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2137768120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49806,13 +49146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1001 &2140876525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50301,13 +49634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6321c636b835b146a5b47be6cdcfeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastPosition: {x: 0, y: 0, z: 0}
-  lastRotation: {x: 0, y: 0, z: 0, w: 0}
-  isWaiting: 0
-  hasSpawned: 0
-  isReady: 0
-  movementThreshold: 0.1
-  rb: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

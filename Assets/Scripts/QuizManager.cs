@@ -25,7 +25,8 @@ public class QuizManager : MonoBehaviour
     public GameObject quizPanel;
     public GameObject GoPanel;
     public GameObject timePanel;
-
+    public GameObject Retrybutton;
+    public GameObject letters;
     public GameObject ScoreText;
 
     public int score;
@@ -39,6 +40,8 @@ public class QuizManager : MonoBehaviour
 
     public void startQuiz()
     {
+        Retrybutton.SetActive(false);
+        letters.SetActive(false);
         startPanel.SetActive(false);
         timePanel.SetActive(true);
         quizPanel.SetActive(true);
@@ -50,6 +53,8 @@ public class QuizManager : MonoBehaviour
         quizPanel.SetActive(false);
         timePanel.SetActive(false);
         GoPanel.SetActive(true);
+        Retrybutton.SetActive(true);
+        letters.SetActive(true);
         int half = totalQuestions / 2;
         if(score > half)
         {

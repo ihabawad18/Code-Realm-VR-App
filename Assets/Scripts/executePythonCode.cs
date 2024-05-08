@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -158,9 +160,31 @@ public class executePythonCode : MonoBehaviour
 
         if (response != null)
         {
-            string result = response.result;
-            executedText.GetComponent<TextMeshProUGUI>().text = result;
-            Debug.Log(result);
+            if (!string.IsNullOrEmpty(response.result))
+            {
+
+                string result = response.result;
+                executedText.GetComponent<TextMeshProUGUI>().text = result;
+                Debug.Log(result);
+            }
+            else
+            {
+                string pattern = @"line\s+(\d+)";
+                Match match = Regex.Match(response.error, pattern);
+                if (match.Success)
+                {
+                    string lineNumber = match.Groups[1].Value;
+                    string result = "Error on Line number: " + lineNumber;
+                    executedText.GetComponent<TextMeshProUGUI>().text = result;
+
+                    Debug.Log(result);
+                }
+                else
+                {
+                    Debug.Log("Unknown error");
+                }
+                Debug.LogError("No error message found in the JSON response.");
+            }
         }
         else
         {
@@ -180,6 +204,7 @@ public class executePythonCode : MonoBehaviour
 
     public class PythonResponse
     {
+        public string error;
         public string result;
         public bool success;
     }

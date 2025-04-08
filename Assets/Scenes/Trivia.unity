@@ -1795,10 +1795,10 @@ MonoBehaviour:
   - question: Which of the following data structures is a mutable, ordered sequence
       in Python?
     answers:
-    - Tuple
-    - String
-    - List
-    - Set
+    - A- Tuple
+    - B- String
+    - C- List
+    - D- Set
     correctAnswer: 3
   - question: What is Python?
     answers:
